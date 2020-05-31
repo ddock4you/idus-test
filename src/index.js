@@ -1,17 +1,13 @@
-import "core-js/features/set";
-import "core-js/stable";
-import "regenerator-runtime/runtime";
-// import "react-app-polyfill/ie9";
-// import "react-app-polyfill/stable";
+import 'react-app-polyfill/ie9'
 
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./pages/App";
-import "./scss/reset.scss";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './pages/App'
+import './scss/reset.scss'
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById("root")
-);
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
