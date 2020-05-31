@@ -42,7 +42,11 @@ const CardHorizontal = ({ CardData }) => {
     return (
         <CardHorizontalStyle aria-label={CardData.title}>
             <ImageArea>
-                <CardImage image={CardData.image} title={CardData.title} />
+                <CardImage
+                    image={CardData.image}
+                    title={CardData.title}
+                    styles="horizontal"
+                />
             </ImageArea>
             <CardContentArea>
                 <CardTitle title={CardData.title} styles="horizontal" />

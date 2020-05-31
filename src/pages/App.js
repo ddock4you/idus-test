@@ -5,7 +5,7 @@ import CardVertical from "../components/Modules/Task1/CardVertical";
 import CardHorizontal from "../components/Modules/Task1/CardHorizontal";
 import Input from "../components/Modules/Task2/Input";
 import { clearFix } from "../Mixins";
-import { FakeData } from "../Data/FakeData";
+import { FakeData, fakeWord } from "../Data/FakeData";
 
 const GlobalStyles = createGlobalStyle`
 
@@ -23,14 +23,20 @@ const Wrapper = styled.div`
     }
     section {
         ${clearFix};
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         h2 {
             margin-bottom: 15px;
             font-size: 18px;
         }
         > div {
             float: left;
-            margin-right: 30px;
+            margin-right: 65px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        > form {
+            margin-bottom: 10px;
         }
     }
 `;
@@ -51,6 +57,8 @@ const App = () => {
                 <section>
                     <h2>과제2. 입력 폼 UI</h2>
                     <Input />
+                    <Input disable={true} />
+                    <Input readonly={true} word={fakeWord} />
                 </section>
             </Wrapper>
         </>

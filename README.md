@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 아이디어스 과제 저장소
 
-## Available Scripts
+**[시연해보기][link]**
 
-In the project directory, you can run:
+[link]: https://ddock4you.github.io/idus-test 'Go'
 
-### `npm start`
+## Stack
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React, styled-component,
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## [문의사항]
 
-### `npm test`
+코드테스트 문서에서 요구사항 중에 `IE 10+`이 있었는데 IE 11 이상은 작동되는 것을 확인했으나 IE 10 에서만 작동 되지 않는 문제가 있습니다.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+IE 10에서도 작동되게끔 하려고 구글링도 해보고 같이 공부하는 동료에게도 물어봤으나 제대로 작동시키지 못했습니다.
 
-### `npm run build`
+<!-- 혹시 제 코드를 보게 되신다면 어떤 작업을 추가로 해야하는지 알려주실 수 있을까요? -->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 테스트
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- IE 11을 실행해서 관리자 모드를 켠 후 에뮬레이션 메뉴에서 문서모드를 10 으로 설정하여 테스트했습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 증상
 
-### `npm run eject`
+- IE 10에서 과제 페이지 접속 시 콘솔 오류 발생하면서 페이지에 아무것도 뜨지 않는 문제 발생
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```console
+    SCRIPT5009: 'Map'이(가) 정의되지 않았습니다.
+    1.chunk.js (11718,3)
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![에러](./public/images/error.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 시도해 본 방법
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- core-js 설치 및 적용 (2버전 대 구형 버전도 설치 후 적용도 해보았습니다.)
+- regenerator-runtime 설치 및 적용 (@babel/polyfill을 적용하려 했으나 babel 7.4.0 버전이후로 사용되지 않는다고 해서 이 방법을 적용)
+- react-app-polyfill 설치 및 적용
+- pakage.json에서 browserlist 설정 변경
+- react-scripts 구형 버전 설치
 
-## Learn More
+### IE 10 지원을 위해 참조한 문서
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<https://github.com/facebook/create-react-app/tree/master/packages/react-app-polyfill>
+<https://velog.io/@pks787/react-IE%EC%97%90%EC%84%9C-%EC%9E%91%EB%8F%99%EC%8B%9C%ED%82%A4%EA%B8%B0>
+<https://stackoverflow.com/questions/53631949/why-ie-11-display-blank-page-rendering-react-app>
+<https://github.com/facebook/create-react-app/issues/6989>
+<https://reactjs.org/docs/javascript-environment-requirements.html>
+<https://okchangwon.tistory.com/3>
+<https://okchangwon.tistory.com/3>

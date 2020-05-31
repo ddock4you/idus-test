@@ -12,7 +12,7 @@ export const FakeData = [
         author: "aaa",
     },
     {
-        image: "/images/idus1.png",
+        image: "/images/idus2.jpg",
         label: "Card Label",
         title: "Card title",
         check: [
@@ -39,7 +39,7 @@ export const FakeData = [
         author: null,
     },
     {
-        image: "/images/idus1.png",
+        image: "/images/idus2.jpg",
         label: "Card Label",
         title: "Card title",
         check: [
@@ -52,3 +52,10 @@ export const FakeData = [
         author: "aaa",
     },
 ];
+
+export const fakeWord = `
+※ 주의사항
+
+1. ㅁㅁㅁ
+2. ㄴㄴㄴ
+`;
