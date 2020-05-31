@@ -33,7 +33,6 @@
   },
   "browserslist": {
     "production": [
-      "not op_mini all",
       "ie >= 9"
     ],
     "development": [
