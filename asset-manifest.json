@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/idus-test/static/css/main.fa8db7a2.chunk.css",
-    "main.js": "/idus-test/static/js/main.d6c960de.chunk.js",
-    "main.js.map": "/idus-test/static/js/main.d6c960de.chunk.js.map",
+    "main.js": "/idus-test/static/js/main.8ce55010.chunk.js",
+    "main.js.map": "/idus-test/static/js/main.8ce55010.chunk.js.map",
     "runtime-main.js": "/idus-test/static/js/runtime-main.10e8cec1.js",
     "runtime-main.js.map": "/idus-test/static/js/runtime-main.10e8cec1.js.map",
-    "static/js/2.efc46671.chunk.js": "/idus-test/static/js/2.efc46671.chunk.js",
-    "static/js/2.efc46671.chunk.js.map": "/idus-test/static/js/2.efc46671.chunk.js.map",
+    "static/js/2.7fc2697e.chunk.js": "/idus-test/static/js/2.7fc2697e.chunk.js",
+    "static/js/2.7fc2697e.chunk.js.map": "/idus-test/static/js/2.7fc2697e.chunk.js.map",
     "index.html": "/idus-test/index.html",
-    "precache-manifest.d8a125ff57ca5b2dd17ae93d620fc19b.js": "/idus-test/precache-manifest.d8a125ff57ca5b2dd17ae93d620fc19b.js",
+    "precache-manifest.2a851db330eb87d193f22fa85fcadadf.js": "/idus-test/precache-manifest.2a851db330eb87d193f22fa85fcadadf.js",
     "service-worker.js": "/idus-test/service-worker.js",
     "static/css/main.fa8db7a2.chunk.css.map": "/idus-test/static/css/main.fa8db7a2.chunk.css.map",
-    "static/js/2.efc46671.chunk.js.LICENSE.txt": "/idus-test/static/js/2.efc46671.chunk.js.LICENSE.txt"
+    "static/js/2.7fc2697e.chunk.js.LICENSE.txt": "/idus-test/static/js/2.7fc2697e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.10e8cec1.js",
-    "static/js/2.efc46671.chunk.js",
+    "static/js/2.7fc2697e.chunk.js",
     "static/css/main.fa8db7a2.chunk.css",
-    "static/js/main.d6c960de.chunk.js"
+    "static/js/main.8ce55010.chunk.js"
   ]
 }
