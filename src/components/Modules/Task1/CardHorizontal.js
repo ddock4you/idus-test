@@ -37,7 +37,7 @@ const StarArea = styled.div`
 
 const CardHorizontal = ({ CardData }) => {
   return (
-    <CardHorizontalStyle aria-label={CardData.title}>
+    <CardHorizontalStyle>
       <ImageArea>
         <CardImage image={CardData.image} title={CardData.title} />
       </ImageArea>
