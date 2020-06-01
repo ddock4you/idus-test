@@ -12,7 +12,7 @@ export const FakeData = [
     author: 'aaa',
   },
   {
-    image: './images/idus2.jpg',
+    image: './images/idus1.png',
     label: 'Card Label',
     title: 'Card title',
     check: [
@@ -39,7 +39,7 @@ export const FakeData = [
     author: null,
   },
   {
-    image: './images/idus2.jpg',
+    image: './images/idus1.png',
     label: 'Card Label',
     title: 'Card title',
     check: [
