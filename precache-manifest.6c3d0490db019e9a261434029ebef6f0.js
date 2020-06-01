@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6421ed1ad1154efdf410d671e9defec",
+    "revision": "ca9e844760f1f016e020a35e6293f8a9",
     "url": "/idus-test/index.html"
   },
   {
-    "revision": "99539b59879150b71368",
+    "revision": "29293f4d8f3b44d66707",
     "url": "/idus-test/static/css/main.fa8db7a2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/idus-test/static/js/2.5fddac37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99539b59879150b71368",
-    "url": "/idus-test/static/js/main.76e4deb5.chunk.js"
+    "revision": "29293f4d8f3b44d66707",
+    "url": "/idus-test/static/js/main.924a4aa0.chunk.js"
   },
   {
     "revision": "807c6380d86a4aa59a14",

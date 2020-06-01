@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/idus-test/static/css/main.fa8db7a2.chunk.css",
-    "main.js": "/idus-test/static/js/main.76e4deb5.chunk.js",
-    "main.js.map": "/idus-test/static/js/main.76e4deb5.chunk.js.map",
+    "main.js": "/idus-test/static/js/main.924a4aa0.chunk.js",
+    "main.js.map": "/idus-test/static/js/main.924a4aa0.chunk.js.map",
     "runtime-main.js": "/idus-test/static/js/runtime-main.10e8cec1.js",
     "runtime-main.js.map": "/idus-test/static/js/runtime-main.10e8cec1.js.map",
     "static/js/2.5fddac37.chunk.js": "/idus-test/static/js/2.5fddac37.chunk.js",
     "static/js/2.5fddac37.chunk.js.map": "/idus-test/static/js/2.5fddac37.chunk.js.map",
     "index.html": "/idus-test/index.html",
-    "precache-manifest.b644cb5237642580a18711c4573b943c.js": "/idus-test/precache-manifest.b644cb5237642580a18711c4573b943c.js",
+    "precache-manifest.6c3d0490db019e9a261434029ebef6f0.js": "/idus-test/precache-manifest.6c3d0490db019e9a261434029ebef6f0.js",
     "service-worker.js": "/idus-test/service-worker.js",
     "static/css/main.fa8db7a2.chunk.css.map": "/idus-test/static/css/main.fa8db7a2.chunk.css.map",
     "static/js/2.5fddac37.chunk.js.LICENSE.txt": "/idus-test/static/js/2.5fddac37.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.10e8cec1.js",
     "static/js/2.5fddac37.chunk.js",
     "static/css/main.fa8db7a2.chunk.css",
-    "static/js/main.76e4deb5.chunk.js"
+    "static/js/main.924a4aa0.chunk.js"
   ]
 }
